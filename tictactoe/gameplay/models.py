@@ -38,3 +38,7 @@ class Move(models.Model):
     comment = models.CharField(max_length=300, blank=True)
     by_first_player = models.BooleanField()
     game = models.ForeignKey(Game, on_delete=models.CASCADE)
+    
+  
+
+
